@@ -80,7 +80,7 @@
     "karma-remap-istanbul": "0.6.0",
     "karma-sourcemap-loader": "0.3.7",
     "karma-webpack": "3.0.5",
-    "lint-staged": "7.0.1",
+    "lint-staged": "8.1.5",
     "merge-jsons-webpack-plugin": "1.0.18",
     "mocha": "6.1.0",
     "node-sass": "4.11.0",
