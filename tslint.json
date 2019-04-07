@@ -94,9 +94,6 @@
     "cyclomatic-complexity": [true, 40],
     "no-invalid-this": [true],
     "no-magic-numbers": false,
-    "no-unused-variable": {
-      "severity": "error"
-    },
     "ban-types": [true, ["Object", "Use {} instead."]],
     "no-submodule-imports": [true, "uuid/v4", "lodash"],
 
