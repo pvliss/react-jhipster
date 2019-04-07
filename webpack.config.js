@@ -67,8 +67,7 @@ module.exports = {
   } : {
     'lodash': true,
     'react': true,
-    'react-addons-css-transition-group': true,
-    'react-addons-transition-group': true,
-    'react-dom': true
+    'react-dom': true,
+    'react-transition-group': true
   }
 };

@@ -34,8 +34,7 @@
   "peerDependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.0",
-    "react-addons-css-transition-group": "^16.0.0-alpha.3",
-    "react-addons-transition-group": "^16.0.0-alpha.3",
+    "react-transition-group": "^2.5.0",
     "react-dom": "^16.8.0",
     "reactstrap": "^5.0.0"
   },
