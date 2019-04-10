@@ -14,7 +14,7 @@ export class JvmMemory extends React.Component<IJvmMemoryProps> {
       <div>
         <h3>Memory</h3>
         {Object.keys(jvmMetrics).map(key => (
-          <div>
+          <div key={key}>
             {jvmMetrics[key].max !== -1 ? (
               <span>
                 <span>{key}</span> (<TextFormat value={jvmMetrics[key].used / 1048576} type="number" format={wholeNumberFormat} />M /{' '}
@@ -32,8 +32,7 @@ export class JvmMemory extends React.Component<IJvmMemoryProps> {
             {jvmMetrics[key].max !== -1 ? (
               <Progress animated value={jvmMetrics[key].used} min="0" max={jvmMetrics[key].max} color="success">
                 <span>
-                  <TextFormat value={jvmMetrics[key].used * 100 / jvmMetrics[key].max} type="number" format={wholeNumberFormat} />
-                  %
+                  <TextFormat value={(jvmMetrics[key].used * 100) / jvmMetrics[key].max} type="number" format={wholeNumberFormat} />%
                 </span>
               </Progress>
             ) : (
